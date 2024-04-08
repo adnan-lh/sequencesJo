@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sequences</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./images/LOGO Y 6 TR.png" />
+    <link rel="shortcut" href="./images/LOGO Y 6 TR.png" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="flex-center flex-column">
+            <div class="calculate-container">
+                <h2 class="text">حاسبت الحد العام للمتتاليات</h2>
+                <input type="text" class="inputSequences" id="inputSequences"
+                    placeholder="أدخل أرقام المتتالية مفصولة بمسافة" />
+                <button class="btn" onclick="algorithm();">اجد الحد العام</button>
+            </div>
+            <h2 id="answer" class="answer">الناتج</h2>
+            <div class="end"><button class="button" onclick="creatCard(1)"><img src="./images/LOGO Y 6.1 TR.png" alt="logo" class="image" /></button></div>
+        </div>
+    </div>
+    <div id="card-info"></div>
+    <script src="./nameInfo.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
+<!-- <button class="button" onclick="creatCard(2)"><img src="./images/h.jpg" alt="h" class="image" /></button> -->
